@@ -1,0 +1,9 @@
+$TTL 1d
+@               IN      SOA     @ root.@ (
+                                2026010101      ; Serial
+                                1800            ; Refresh
+                                300             ; Retry
+                                3600000         ; Expire
+                                86400 )         ; Minimum
+
+                IN      NS      ns1.example.com.
